@@ -1,6 +1,6 @@
 {
   "name": "wdio-zafira-listener-service",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "zafira report listener service for wdio",
   "main": "lib/index.js",
   "scripts": {

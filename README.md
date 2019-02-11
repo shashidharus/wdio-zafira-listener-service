@@ -1,4 +1,4 @@
-# wdio-zafira-reporter
+# wdio-zafira-listener-service
 A custom service for WDIO to report tests to [Zafira Dashboard](http://demo.qaprosoft.com/zafira/)
 
 ## How to use
@@ -8,21 +8,21 @@ A custom service for WDIO to report tests to [Zafira Dashboard](http://demo.qapr
 
 ### Install
 
-- npm install wdio-zafira-service
+- npm install wdio-zafira-listener-service
 
 ### Example wdio config
 
 ```
-const ZfService = require('wdio-zafira-service')
+const ZfService = require('wdio-zafira-listener-service')
 
 exports.config = {
   specs: [
     './test/e2e/*.js'
   ],
   capabilities: [
-    { browserName: 'phantomjs' }
+    { browserName: 'chrome' }
   ],
-  services: ['phantomjs', new ZfService(
+  services: ['chrome', new ZfService(
     { // Service Options
       refreshToken: 'eyJhbGci....', // http://demo.qaprosoft.com/zafira-ws/swagger-ui.html#!/auth-api-controller/login
       username: 'admin',
