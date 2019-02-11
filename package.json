@@ -1,0 +1,38 @@
+{
+  "name": "wdio-zafira-listener-service",
+  "version": "0.0.3",
+  "description": "zafira report listener service for wdio",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "wdio test/wdio.conf.js"
+  },
+  "keywords": [
+    "wdio-plugin",
+    "wdio-service",
+    "zafira",
+    "listener"
+  ],
+  "author": "Shashi",
+  "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/shashidharus/wdio-zafira-listener-service.git"
+  },
+  "dependencies": {
+    "@wdio/reporter": "^5.4.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "@wdio/dot-reporter": "^5.4.3",
+    "@wdio/spec-reporter": "^5.4.3",
+    "mocha": "^5.2.0",
+    "phantomjs-prebuilt": "^2.1.10",
+    "require-dir": "^0.3.0",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.14.2"
+  }
+}
