@@ -1,6 +1,6 @@
 {
   "name": "wdio-zafira-listener-service",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "zafira report listener service for wdio",
   "main": "lib/index.js",
   "scripts": {
@@ -15,8 +15,8 @@
   "author": "Shashi",
   "license": "ISC",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/shashidharus/wdio-zafira-listener-service.git"
+    "type": "git",
+    "url": "https://github.com/shashidharus/wdio-zafira-listener-service.git"
   },
   "dependencies": {
     "@wdio/reporter": "^5.4.3",
